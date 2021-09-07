@@ -60,13 +60,13 @@ body{
 }
 
 .feature-heading p{
-    font-size: 1.25rem;
+    font-size: 1.26rem;
     font-weight: 300;
 }
 
-
+/* 
 @media only screen and (max-width: 1265) {
   marquee{
       display: none;
   }
-}
+} */
