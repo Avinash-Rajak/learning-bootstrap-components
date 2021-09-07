@@ -1,3 +1,8 @@
+body{
+    overflow-x: hidden;
+}
+
+
 .bi-emoji-smile-fill{
-    background-color: ;
+    color: rgb(221, 218, 9);
 }
