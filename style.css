@@ -50,6 +50,8 @@ body{
     line-height: 1.5;
 }
 
+
+
 .feature-heading h2{
     font-weight: 400;
     font-size: 50px;
@@ -86,6 +88,7 @@ body{
     font-weight: 350;
     line-height: 1.5;
     letter-spacing: 0.1rem;
+    margin-bottom: 80px;
 }
 .products h3 span{
     font-weight: 400;
@@ -103,6 +106,27 @@ body{
     background-color:rgb(165, 163, 163);
     line-height: 1.5;
     margin-top: 20px;
+}
+
+.flip{
+    width: 200px;
+    height: 180px;
+    margin: auto;
+    background-color:red;
+    line-height: 1.5;
+    margin-top: 20px; 
+    opacity:0;
+}
+
+.flip:hover{
+    opacity: 1;
+     transform: rotateY(180deg);
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    transition-property:transform ;
+    transition-duration: 1s;
+    
 }
 
 .content h1{
